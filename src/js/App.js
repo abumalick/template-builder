@@ -105,7 +105,7 @@ class App extends Component {
       <div className="App">
         <div className="App-header row around-xs around-sm">
           <div className="col-xs-12 col-sm-4">
-            <h1>Template generator</h1>
+            <h1>Template Builder</h1>
           </div>
           <div className="col-xs-12 col-sm-4">
             <Templates
