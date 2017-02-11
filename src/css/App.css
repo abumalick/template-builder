@@ -1,0 +1,55 @@
+body {
+  font-family: 'Amiri', serif;
+}
+.App {
+  text-align: left;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 1px;
+  /*text-align: center;*/
+
+}
+.App-header h1 {
+  /*float: left;*/
+  /*display: inline-block;*/
+
+  color: white;
+}
+/* Templates */
+.App-header div.ZzBNK,
+.App-header input._4bZUj {
+  color: #fff;
+  /*display: inline-block;*/
+  /*background-color: #fff;*/
+}
+.App-header input._4bZUj {
+  background-color: rgba(200,200,200,.12);
+}
+ul._2767w > * {
+    cursor: pointer;
+}
+/* dropdown */
+.App-header ul._2767w {
+  background-color: #222;
+}
+.App-header ul._2767w > ._3uiEo {
+  color: #4f67ef;
+}
+
+/* Result section */
+._26SP9 {
+  background-color: #eee;
+}
+pre,
+._26SP9 {
+  overflow: auto;
+}
+pre{
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
