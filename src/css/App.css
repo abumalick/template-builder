@@ -1,5 +1,6 @@
+@import "~antd/dist/antd.css";
 body {
-  font-family: 'Amiri', serif;
+  font-family: "Amiri", serif;
 }
 .App {
   text-align: left;
@@ -9,7 +10,6 @@ body {
   background-color: #222;
   padding: 1px;
   /*text-align: center;*/
-
 }
 .App-header h1 {
   /*float: left;*/
@@ -25,10 +25,10 @@ body {
   /*background-color: #fff;*/
 }
 .App-header input._4bZUj {
-  background-color: rgba(200,200,200,.12);
+  background-color: rgba(200, 200, 200, 0.12);
 }
 ul._2767w > * {
-    cursor: pointer;
+  cursor: pointer;
 }
 /* dropdown */
 .App-header ul._2767w {
@@ -46,7 +46,7 @@ pre,
 ._26SP9 {
   overflow: auto;
 }
-pre{
+pre {
   white-space: pre-wrap;
   white-space: -moz-pre-wrap;
   white-space: -pre-wrap;

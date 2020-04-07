@@ -1,25 +1,36 @@
-import React from 'react';
-import Dropdown from 'react-toolbox/lib/dropdown';
+import React from "react";
+import PropTypes from "prop-types";
+import { Select } from "antd";
+
+const { Option } = Select;
 
 class Templates extends React.Component {
   static propTypes = {
-    onChange: React.PropTypes.func.isRequired,
-    templates: React.PropTypes.array.isRequired,
-    template: React.PropTypes.string.isRequired,
-  }
+    onChange: PropTypes.func.isRequired,
+    templates: PropTypes.array.isRequired,
+    template: PropTypes.string.isRequired,
+  };
 
   handleChange = (template) => {
     this.props.onChange(template);
   };
 
   render() {
+    const { templates, template } = this.props;
     return (
-      <Dropdown
-        auto
+      <Select
+        value={template}
+        style={{ width: "100%", marginTop: 15 }}
         onChange={this.handleChange}
-        source={this.props.templates}
-        value={this.props.template}
-      />
+      >
+        {templates.map((template) => {
+          return (
+            <Option value={template} key={template}>
+              {template}
+            </Option>
+          );
+        })}
+      </Select>
     );
   }
 }
